@@ -33,11 +33,10 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if text == "💼 Услуги":
         await update.message.reply_text(
             "💼 Услуги GimPrograms\n\n"
-            "🌐 Сайты под ключ — от 3000 ₽\n"
-            "🤖 Telegram-боты — от 4000 ₽\n"
-            "🎮 Скрипты для GTA SA — от 3000 ₽\n"
-            "🎨 Дизайн — от 2000 ₽\n\n"
-            "⚠️ Временно новые заказы не принимаем."
+            "🌐 Сайты под ключ — от 100 ₽\n"
+            "🤖 Telegram-боты — от 50 ₽\n"
+            "🎨 Дизайн — от 100 ₽\n\n"
+            "GimPrograms"
         )
         return
 
@@ -46,7 +45,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "🚀 Наши проекты:\n\n"
             "🔹 Xile Mobile — https://dimastwa0sopsi.github.io/XileMobile/\n"
             "🔹 GimGame — https://dimastwa0sopsi.github.io/sgames/\n"
-            "🔹 GimStudios Hub — https://dimastwa0sopsi.github.io/GimProgramsWeb/"
+            "🔹 GimStudios — https://dimastwa0sopsi.github.io/GimProgramsWeb/"
         )
         return
 
@@ -66,8 +65,6 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Напиши в Telegram @Kitty_Kittys или на почту.\n\n"
             "🔹 Есть ли гарантия?\n"
             "Да, на все услуги.\n\n"
-            "🔹 Когда возобновятся заказы?\n"
-            "Временно приостановлены. Следи за новостями."
         )
         return
 
